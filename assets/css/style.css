@@ -1,50 +1,54 @@
-body{
-    max-width: 100%;
-    padding: 1px 70px 0px 70px;
-    background: #dddddd;
+*{
     margin: 0px;
-    margin-left: 50px;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    box-sizing: border-box;
+    background: #dddddd;
     border: #dddddd solid;
-    color: blue;
+    
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 header{
+    padding-bottom: 62px;
     background: white;
-    padding: 35px
 }
-header h1{
-    border:  ;
-    color: white;
-    background: #4aaaa5;
+.btn{
+    background:  #4aaaa5;
 }
-
-
-header h1{
-    position: fixed;
-    margin-left: 182px;
-    font-size: 35px;
-    background: #4aaaa5;
-    color: white;
-}
-
-
-.links{ 
-    text-align: right;
+a{
     
+    color: white;
+}
+
+h1{
+    position: fixed;
+    font-size: 36px;
+    background: #4aaaa5;
+    color: white;
+    margin-left: 498px;
+    padding-bottom: 102px;
+
+}
+.links{ 
+    color: #777777;
+    margin-left: 994px;
+    position: fixed;
 }
 
 
 .main-content{
-    margin-top: 39px;
-    float: right;
-    padding-bottom: 237px;
+    left: 198px;
+    max-width: 960px;
+    margin-right: 27px;
+    margin-left: 79px;
+    margin-top: 0px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding-inline-start: inherit;
-    border: #dddddd solid 1px;
     background: #ffffff;
     position: absolute;
-    margin-left: 123px;
-    max-width: 960px;
+    padding-top: 27px;
+    padding-left: 4px;
 }
 
 .main-content h1{
@@ -60,20 +64,20 @@ img{
     margin-left: 20px;
 }
 
+p{
+    margin-top: 1px;
+}
 
 #about-me{
-    margin-left: 20px;
+    margin-left: 219px;
     color: #4aaaa5;
     
 }
 
-
-#metext{
-
-}
-
 footer{
-    clear: both;
+    color: #777777;
+    padding-top: 560px;
+    text-align: center;
 }
 
 
