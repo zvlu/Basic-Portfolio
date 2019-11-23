@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 body{
+    
     padding: 0px;
     box-sizing: border-box;
     background: #dddddd;
@@ -11,6 +12,7 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 header{
+    border-bottom: #4aaaa5 solid 2px;
     padding-top: 34px;
     padding-bottom: 62px;
     background: white;
@@ -25,7 +27,7 @@ a{
 
 h1{
     position: fixed;
-    font-size: 36px;
+    font-size: 42px;
     background: #4aaaa5;
     color: white;
     margin-left: 296px;
@@ -39,7 +41,9 @@ h1{
 }
 
 
+
 .main-content{
+    padding-right: 90px;
     left: 198px;
     max-width: 960px;
     margin-right: 27px;
@@ -70,20 +74,24 @@ p{
 }
 
 #about-me{
+    font-size: 42px;
+    border-bottom-width: 5px;
+    border-bottom: #7777 solid 3px;
     margin-left: 24px;
     color: #4aaaa5;
     
 }
 
 footer{
-    border:;
-    margin-top: 579px;
+    border-top: #4aaaa5 solid 0px;
+    margin-top: 620px;
     border-color: #4aaaa5;
-    border-top-width: 53px;
+    border-top-width: 6px;
     background: #666666;
     color: white;
     padding-top: 5px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 
