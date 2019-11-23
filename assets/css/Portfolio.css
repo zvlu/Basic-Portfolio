@@ -45,9 +45,35 @@ a{
     background: white;
     margin-right: -177px;
 }
+div.desc{
+    padding: 15px;
+    text-align: center;
+    color: #777777;
+}
 #portfolio{
     color: #4aaaa5;
 }
 img{
-    width: 100px;
+    width: 227px;
+    height: 203px;
+}
+div.gallery:hover {
+    border: 1px solid #777777;
+}
+.responsive{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+
+
+    
+
+}
+@media only screen and ( max-width: 500px) .responsive{
+    width: 100%;
+}
+.clearfix: ::after{ 
+    content: "";
+    display: table;
+    clear: both;
 }
