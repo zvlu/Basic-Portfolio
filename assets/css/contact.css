@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    box-sizing: border-box;
+    background: #dddddd;
+    border: #dddddd solid;
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+header{
+    padding-top: 40px;
+    padding-bottom: 62px;
+    background: white;
+}
+a{
+    
+    color: white;
+}
+
+.name{
+    background: #4aaaa5;
+    position: fixed;
+    font-size: 36px;
+    color: white;
+    margin-left: 344px;
+    padding-bottom: 20px;
+
+}
+.links{ 
+    color: #777777;
+    margin-left: 999px;
+    position: fixed;
+}
+
+.myform{
+    padding: 20px;
+}
+
+#container{
+    padding-bottom: 89px;
+    padding-left: 44px;
+    margin-left: 281px;
+    max-width: 960px;
+    background: white;
+    border: black solid 0px;
+    margin-top: 9px;
+    position: relative;
+}
+
+
+#contact{
+    margin-left: 15px;
+    color: #4aaaa5;
+}
+.formgroup{
+    padding-bottom: 15px;
+
+}
+.myform label{
+    display: block;
+}
+.name-input{
+    width: 100%;
+    padding: 8px;
+    color: #777777
+}
+.email-input{
+    width: 100%;
+    padding: 8px;
+    color: #777777
+}
+label{
+    color: #777777
+}
+.myform input[type="text"], .myform textarea{
+    width: 830px;
+
+}
+.myform input[type="message"], .myform textarea{
+    width: 830px;
+    padding-bottom: 168px ;
+}
+.myform input[type="submit"], .myform button{
+    color: white;
+    background: #4aaaa5;
+    border: none;
+}
+.btn{
+    background: #4aaaa5;
+    color: white;
+}
+footer{
+    margin-top: 650px;
+    border-color: #4aaaa5;
+    border-top-width: 53px;
+    background: #666666;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom: 0px;
+
+}

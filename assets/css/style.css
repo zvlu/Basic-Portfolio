@@ -75,8 +75,13 @@ p{
 }
 
 footer{
-    color: #777777;
-    padding-top: 560px;
+    border:;
+    margin-top: 579px;
+    border-color: #4aaaa5;
+    border-top-width: 53px;
+    background: #666666;
+    color: white;
+    padding-top: 5px;
     text-align: center;
 }
 
