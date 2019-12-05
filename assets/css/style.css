@@ -12,8 +12,9 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 header{
+    width: 1514px;
     border-bottom: #4aaaa5 solid 2px;
-    padding-top: 34px;
+    padding-top: 40px;
     padding-bottom: 62px;
     background: white;
 }
@@ -23,6 +24,13 @@ header{
 a{
     
     color: white;
+}
+.row{
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -218px;
 }
 
 h1{
@@ -36,8 +44,9 @@ h1{
 }
 .links{ 
     color: #777777;
-    margin-left: 983px;
+    margin-left: 265px;
     position: fixed;
+
 }
 
 
@@ -83,6 +92,7 @@ p{
 }
 
 footer{
+    width: 1519px;
     border-top: #4aaaa5 solid 0px;
     margin-top: 620px;
     border-color: #4aaaa5;

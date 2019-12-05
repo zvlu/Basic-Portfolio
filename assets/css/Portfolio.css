@@ -2,6 +2,21 @@
     margin: 0px;
     box-sizing: border-box;
 }
+/* for tablets: */
+
+@media only screen and (max-width:800px){
+    body {
+        width: 80%;
+        padding: 0;
+
+    }
+}
+
+/* for mobile phones:*/
+
+@media only screen and (max-width:500px){
+    body,
+}
 body{
     padding: 0px;
     box-sizing: border-box;
@@ -11,6 +26,7 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 header{
+    width: 1514px;
     border-bottom: #4aaaa5 solid 2px;
     padding-top: 40px;
     padding-bottom: 62px;
@@ -32,7 +48,7 @@ a{
 }
 .links{  
     color: #777777;
-    margin-left: 999px;
+    margin-left: 251px;
     position: fixed;
 }
 .btn{
