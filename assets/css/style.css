@@ -2,6 +2,24 @@
     margin: 0px;
     box-sizing: border-box;
 }
+/* for tablets: */
+
+@media only screen and (max-width:800px){
+    body {
+        width: 80%;
+        padding: 0;
+
+    }
+}
+
+/* for mobile phones:*/
+
+@media only screen and (max-width:500px){
+    body{
+        width: 40%;
+        padding: 0;
+    }
+}
 body{
     
     padding: 0px;

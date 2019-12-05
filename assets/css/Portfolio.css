@@ -15,7 +15,10 @@
 /* for mobile phones:*/
 
 @media only screen and (max-width:500px){
-    body,
+    body{
+        width: 40%;
+        padding: 0;
+    }
 }
 body{
     padding: 0px;
