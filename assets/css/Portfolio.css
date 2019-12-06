@@ -238,6 +238,7 @@ div.gallery:hover {
     clear: both;
 }
 footer{
+    position: fixed;
     border-top: #4aaaa5 solid 0px;
     margin-top: 620px;
     border-color: #4aaaa5;
@@ -247,4 +248,6 @@ footer{
     padding-top: 5px;
     text-align: center;
     margin-bottom: 0px;
+    bottom: 0px;
+    width: 100%;
 }
