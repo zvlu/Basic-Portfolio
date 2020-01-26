@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/Portfolio.css">
 </head>
 <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">NavMe</a>
+                <a class="navbar-brand" href="#">Eric King</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -19,25 +18,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">ZVLU</a>
-                        <a class="dropdown-item" href="#">ZVLU WORK</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">pics</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
+                    
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -51,71 +34,49 @@
         <div class="row">
             <div class="col-sm-6">
 
-            <Header>
-            
-                <h1 id="header1">Eric King
-                                        
-                </h1>
-            </div>
-            
-            <div class="col-sm-6">
-                <div class="links">
-                    <button type="button" class="btn btn-secondary"><a href="index.html" >About</a></button>
-                    <button type="button" class="btn btn-secondary"><a href="portfolio.html" >Portfolio</a></button>
-                    <button type="button" class="btn btn-secondary"><a href="contact.html" > Contact</a></button>
-                        
-                </div>
-            </Header>
+           
         </div>
         </div>
         <br>
         <div class="row">
         <div class="main-container">
-            <h1 id="portfolio">Portfolio</h1>
-            
-            <div id="responsive">
-                <div><img id="pic1" src="assets/images/lib2.jpg" alt="lib2"></div>
-                    
-                
-                
-                    
-                        
-                    
-                    <div class="desc"> PICK ME </div>
-               
-            </div>
-            
-             <div id="responsive2">
-                   
-             <div><img id="pic2" src="assets/images/lib3.jpg" alt="lib3"></div>                       
-                            
-                        
-                        <div class="desc"> PICK ME </div>
-                   
-                </div>  
-            
-            <div id="responsive3">
-                        <div class="gallery">
-                            <div><img id="pic3" src="assets/images/ericpose.jpg" alt="lib2"></div>
-                                
-                            
-                            
-                            
-                            <div class="desc"> CLICK HERE </div>
-                        </div>
-                </div>
-                
-            <div id="responsive4">
-                    <div class="gallery">
-                        <div><img id="pic4" src="assets/images/lib2.jpg" alt="lib2"></div>
-                       
-                            
-                        
-                        <div class="desc"> CLICK HERE </div>
-                    </div>
-                </div>
+          <h1 id="portfolio">Portfolio</h1>
 
-        <div class="clearfix"></div>         
+          <div class="container">
+            <div class="card" style="width: 18rem;">
+              <img src="./assets/images/Day-Planner.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Day Planner App</h5>
+                <p class="card-text">Created a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+                </p>
+                <a href="https://github.com/zvlu/Day-Planner" class="btn btn-primary">REPO</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="./assets/images/Password-Generator-Pic.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Password Generator</h5>
+                <p class="card-text">Random Password Generator with character filter  
+                </p>
+                <a href="https://github.com/zvlu/Password-Generator" class="btn btn-primary">REPO</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/Lively.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lively App</h5>
+              <p class="card-text">One place to find your favorite artist and new ones at the same time.
+
+
+              </p>
+              <a href="https://github.com/Sforzemon/Lively" class="btn btn-primary">REPO</a>
+            </div>
+          </div>
+        </div>
+              
             
          
             
