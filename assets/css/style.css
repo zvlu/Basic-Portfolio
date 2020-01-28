@@ -354,8 +354,8 @@ footer{
     .container {
         width: 100%;
     }
-    #navbar {
-        float: right;
+    .nav-item {
+        float: left;
         width: 100%;
     }
 }
