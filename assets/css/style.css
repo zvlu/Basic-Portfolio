@@ -367,14 +367,16 @@ body .footer {
             transform: translate(-50%, 100%);
   }
   body .footer .content {
+    align-content: center;
     z-index: 2;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 4rem;
-    padding: 2rem;
+    padding: 3rem;
     background: var(--footer-background);
   }
   body .footer .content a, body .footer .content p {
+    text-align: center;
     color: #F5F7FA;
     text-decoration: none;
   }
